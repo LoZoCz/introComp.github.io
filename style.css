@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+body
+{
+    font-family: Barlow;
+    color: hsl(230, 29%, 20%);
+    padding: 50px 0px 50px 150px;
+    height: 100%;
+    margin: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+}
+
+p, h1
+{
+    margin: 0px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Barlow Condensed;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav a, nav div
+{
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    transition: all ease-in-out 0.15s;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+.hamburger
+{
+    display: none;
+}
+
+.ball
+{
+    background: hsl(231, 7%, 65%);
+    height: 5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.login
+{
+    color: hsl(231, 7%, 65%);
+}
+
+article
+{
+    padding: 130px 0px;
+    background: url(images/illustration-devices.svg);
+    background-repeat: no-repeat;
+    background-position: right -59% top 65%;
+    background-size: 1200px;
+}
+
+
+.topTxt
+{
+    font-family: Barlow Condensed;
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 6px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+span
+{
+    background: hsl(230, 29%, 20%);
+    color: white;
+    padding: 2px 14px 4px 14px;
+    border-radius: 200px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+h1
+{
+    font-size: 82px;
+    font-family: Barlow Condensed;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.bottomTxt
+{
+    width: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.btnDiv button
+{
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-family: Barlow Condensed;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all ease-in-out 0.15s;
+}
+
+.btnDiv button:hover
+{
+    opacity: 70%;
+}
+
+.btnDiv p
+{
+    font-family: Barlow Condensed;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.btnDiv
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+
+.picture
+{
+    position: absolute;
+    right: -18%;
+    top: 60%;
+    transform: translateY(-60%);
+    height: 600px;
+}
+
+header, article
+{
+    z-index: 999;
+}
+
+.back
+{
+    background: hsl(207, 33%, 95%);
+    height: 470px;
+    border-bottom-left-radius: 100px;
+    width: 900px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1000;
+}

@@ -1,0 +1,222 @@
+@media (max-width: 375px) 
+{
+body
+{
+    font-family: Barlow;
+    color: hsl(230, 29%, 20%);
+    height: 100%;
+    padding: 40px 0px 40px 0px;
+    margin: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+}
+
+p, h1
+{
+    margin: 0px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Barlow Condensed;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav a, nav div
+{
+    margin: 0px 0px 0px 0px;
+    letter-spacing: 1px;
+    transition: all ease-in-out 0.15s;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+.ball
+{
+    background: hsl(231, 7%, 65%);
+    height: 5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.login
+{
+    color: hsl(231, 7%, 65%);
+}
+
+.hamburger
+{
+    display: flex;
+}
+
+article
+{
+    background: url(images/illustration-devices.svg);
+    background-repeat: no-repeat;
+    background-position: right 110% top 10%;
+    background-size: 500px;
+    padding: 420px 40px 0px 40px;
+}
+
+
+.topTxt
+{
+    font-family: Barlow Condensed;
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+span
+{
+    background: hsl(230, 29%, 20%);
+    color: white;
+    padding: 2px 14px 4px 14px;
+    border-radius: 200px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+h1
+{
+    font-size: 40px;
+    font-family: Barlow Condensed;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.menuD, .login, .ball
+{
+    display: none;
+}
+
+.bottomTxt
+{
+    width: 250px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btnDiv button
+{
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: Barlow Condensed;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all ease-in-out 0.15s;
+}
+
+.btnDiv button:hover
+{
+    opacity: 70%;
+}
+
+.btnDiv p
+{
+    font-family: Barlow Condensed;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btnDiv
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.picture
+{
+    position: absolute;
+    right: -18%;
+    top: 60%;
+    transform: translateY(-60%);
+    height: 600px;
+}
+
+header, article
+{
+    z-index: 999;
+}
+
+.menu
+{
+    position: absolute;
+    width: 265px;
+    text-transform: uppercase;
+    background: white;
+    padding: 20px;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 50px -12px rgba(66, 68, 90, 1);
+    text-align: center;
+    transition: all ease-in-out 0.15s;
+}
+
+.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li
+{
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.menu hr
+{
+    border: none;
+    background: hsl(206, 11%, 88%);
+    height: 1px;
+}
+
+.back
+{
+    background: hsl(207, 33%, 95%);
+    height: 450px;
+    border-bottom-left-radius: 100px;
+    width: 220px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1000;
+}
+}
